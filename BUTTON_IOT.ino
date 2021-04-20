@@ -1,9 +1,9 @@
 #include<ESP8266WiFi.h>                                                 // Importing ESP8266 library.
 
-String apiKey = "WGSTB753UI1S08RM";                                     // Write Your Thingspeak apiKey here.                               
+String apiKey = "Your apikey of Thingspeak channel";                                     // Write Your Thingspeak apiKey here.                               
 
-const char *ssid = "corona";                                            // Write your wifi name here.                                                                    
-const char *pass = "covid2019";                                         // Write your wifi password here.
+const char *ssid = "Your WiFi user name";                                            // Write your wifi name here.                                                                    
+const char *pass = "Your WiFi Password";                                         // Write your wifi password here.
 const char *server = "api.thingspeak.com";                              // server address from which we have to connect i.e. Thingspeak.                           
 
 const int buttonPin1 = 16;                                              // Declaring pin 16 of Node mcu i.e D0 as a constant integer.
